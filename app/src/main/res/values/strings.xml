@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">application_1</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_let_s_test_your">"Let's test your knowledge"</string>
+<string name="lbl_science">Science</string>
+<string name="lbl_detail_quiz">Detail Quiz</string>
+<string name="msg_total_duration">Total duration of the quiz</string>
+<string name="lbl_app_navigation">App Navigation</string>
+<string name="lbl_4_8">4.8</string>
+<string name="msg_what_is_the_mea">What is the meaning of UI UX Design ?</string>
+<string name="lbl_35_min">35 min</string>
+<string name="msg_user_interface">User Interface and User Experience</string>
+<string name="msg_10_point_for_a">10 point for a correct answer</string>
+<string name="lbl_get_started">Get Started</string>
+<string name="msg_ui_ux_design_qu">UI UX Design Quiz</string>
+<string name="lbl_10">10</string>
+<string name="lbl_computer">Computer</string>
+<string name="msg_user_interfice">User Interfice and Using Experience</string>
+<string name="lbl_detail_screen">Detail Screen</string>
+<string name="lbl_mathematic">Mathematic</string>
+<string name="lbl_min">min</string>
+<string name="msg_please_read_the">Please read the text below carefully so you can
+understand it</string>
+<string name="msg_user_interfoce">User Interfoce and User Experience</string>
+<string name="lbl_a">A</string>
+<string name="msg_user_introface">User Introface and User Experience</string>
+<string name="lbl_b">B</string>
+<string name="lbl_c">C</string>
+<string name="lbl_d">D</string>
+<string name="msg_answer_all_ques">Answer all questions correctly</string>
+<string name="lbl_e">E</string>
+<string name="msg_tap_on_options">Tap on options to select the correct answer</string>
+<string name="msg_using_interface">Using Interface and Using Experience</string>
+<string name="lbl_search">Search</string>
+<string name="lbl_submit_quiz">Submit Quiz</string>
+<string name="lbl_1_hour_15_min">1 hour 15 min</string>
+<string name="lbl_4">4</string>
+<string name="lbl_5">5</string>
+<string name="lbl_6">6</string>
+<string name="lbl_graphic_design">Graphic Design</string>
+<string name="lbl_7">7</string>
+<string name="lbl_8">8</string>
+<string name="msg_tap_on_the_book">Tap on the bookmark icon to save interesting
+questions</string>
+<string name="lbl_hello_james">Hello, James</string>
+<string name="lbl_9">9</string>
+<string name="lbl_8_10_question">8/10 Question</string>
+<string name="lbl_continue_quiz">Continue Quiz</string>
+<string name="msg_brief_explanati">Brief explanation about this quiz</string>
+<string name="lbl_popular">Popular</string>
+<string name="lbl_10_question">10 Question</string>
+<string name="lbl_3d_animation">3D Animation</string>
+<string name="msg_click_submit_if">Click submit if you are sure you want to
+complete all the quizzes</string>
+<string name="lbl_get_100_points">GET 100 Points</string>
+<string name="lbl_16_35">16:35</string>
+<string name="lbl_quiz_screen">Quiz Screen</string>
+<string name="lbl_35">35</string>
+<string name="msg_check_your_app">"Check your app's UI from the below demo screens of your app."</string>
+<string name="lbl_10_question2">/10 Question</string>
+<string name="lbl_home_screen">Home Screen</string>
+<string name="lbl_ui_ux_design">UI UX Design</string>
+<string name="msg_10_point_awarde">10 point awarded for a correct answer and no
+marks for a incorrect answer</string>
+<string name="lbl_win_10_star">Win 10 star</string>
+<string name="lbl_start_quiz">Start Quiz</string>
+<string name="msg_this_contact_has_no_phone_nu">This contact has no phone number</string>
+</resources>
