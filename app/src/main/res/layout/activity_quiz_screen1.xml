@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="quizScreen1VM" type="com.application.app.modules.quizscreen1.data.viewmodel.QuizScreen1VM"/>
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintGroup33"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyle">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/_6pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_width="match_parent"
+            app:layout_constraintBottom_toTopOf="@+id/constraintButton"
+            app:layout_constraintEnd_toEndOf="@+id/imageRectangle4"
+            app:layout_constraintStart_toStartOf="@+id/imageRectangle4" app:layout_constraintTop_toTopOf="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintQuizScreen"
+                android:layout_height="wrap_content" android:layout_width="match_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintTitleandheade"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_333pxv"
+                    android:layout_marginStart="@dimen/_18pxh"
+                    android:layout_width="0dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <ImageView android:id="@+id/image43"
+                        android:layout_height="@dimen/_24pxh"
+                        android:layout_marginBottom="@dimen/_117pxv"
+                        android:layout_width="@dimen/_24pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_43_1"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/tabLayoutGroup6"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tabLayoutGroup6"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_117pxv"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_width="0dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/image43"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:tabBackground="@drawable/selector_bg_white_a700_radius_16"
+                        app:tabIndicatorColor="@android:color/transparent"
+                        app:tabIndicatorHeight="0dp" app:tabMode="fixed"
+                        app:tabSelectedTextColor="@color/indigo_A700" app:tabTextColor="@color/white_A700"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/viewPagerGroup27"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_width="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+        <ImageView android:id="@+id/imageRectangle4"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_49pxv"
+            android:layout_width="0dp" android:scaleType="fitXY"
+            android:src="@drawable/img_rectangle4_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@+id/scrollViewScrollview"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintButton"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_76pxv"
+            android:layout_marginEnd="@dimen/_6pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_209pxv"
+            android:layout_width="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageRectangle4"
+            app:layout_constraintEnd_toEndOf="@+id/imageRectangle4" app:layout_constraintStart_toStartOf="@+id/imageRectangle4">
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnSubmitQuiz"
+                android:layout_height="@dimen/_50pxv"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_width="@dimen/_195pxh"
+                android:paddingBottom="@dimen/_16pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_16pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_submit_quiz"
+                android:textAllCaps="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageNext"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toEndOf="@+id/imagePrevious"
+                app:layout_constraintTop_toTopOf="parent"
+                style="@style/btnSolidRoundedOutline" tools:text="@string/lbl_submit_quiz"/>
+            <ImageView android:id="@+id/imagePrevious"
+                android:layout_height="@dimen/_50pxh"
+                android:layout_width="@dimen/_50pxh"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btnSubmitQuiz"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                imageRes="@{@drawable/img_previous}" tools:src="@drawable/img_previous"/>
+            <ImageView android:id="@+id/imageNext"
+                android:layout_height="@dimen/_50pxh"
+                android:layout_marginEnd="@dimen/_18pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_width="@dimen/_50pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.19"
+                app:layout_constraintStart_toEndOf="@+id/btnSubmitQuiz" app:layout_constraintTop_toTopOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

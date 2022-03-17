@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="detailScreen1RowModel" type="com.application.app.modules.detailscreen.data.model.DetailScreen1RowModel"/>
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintGroup"
+        android:layout_height="wrap_content" android:layout_width="match_parent">
+        <ImageView android:id="@+id/imageGroup1717"
+            android:layout_height="0dp"
+            android:layout_width="@dimen/_40pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_group1717"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1.0:1.0"
+            app:layout_constraintEnd_toStartOf="@+id/txt10Question"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txt10Question"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_90pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{detailScreen1RowModel.txt10Question}"
+            app:layout_constraintBottom_toTopOf="@+id/txt10PointForA"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toEndOf="@+id/imageGroup1717"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/txtUbuntumedium16_1" tools:text="@string/lbl_10_question"/>
+        <TextView android:ellipsize="end" android:gravity="start"
+            android:id="@+id/txt10PointForA"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_3pxv"
+            android:layout_width="0dp" android:singleLine="true"
+            android:text="@{detailScreen1RowModel.txt10PointForA}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageGroup1717"
+            app:layout_constraintTop_toBottomOf="@+id/txt10Question"
+            style="@style/txtNunitoregular14_1" tools:text="@string/msg_10_point_for_a"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
